@@ -1,4 +1,4 @@
-class Televisao {
+public class Televisao {
     // Atributos encapsulados (privados) [cite: 13, 14, 26]
     private int volume;
     private int canal;
@@ -31,7 +31,7 @@ class Televisao {
     }
 }
 
-class ControleRemoto {
+publicclass ControleRemoto {
     private Televisao tv;
 
     public ControleRemoto(Televisao tv) {
