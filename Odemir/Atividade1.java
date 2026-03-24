@@ -31,7 +31,7 @@ public class Televisao {
     }
 }
 
-publicclass ControleRemoto {
+public class ControleRemoto {
     private Televisao tv;
 
     public ControleRemoto(Televisao tv) {
