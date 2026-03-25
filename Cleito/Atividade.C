@@ -5,16 +5,19 @@ input[9:0] SW
 );
 
 // assing LEDR[0] = KEY[0]& ~SW[0] | KEY[1] & SW[0]
-reg z;
+reg z [3:0] 
 always @*  //SENCIVEL A QUALQUER ENTRADA E A UM TIPO DE VARIAVEL ESPICÍFICA TAMBÉM (REG)
 beguin    
-    case(SW{0})
+    case(SW{1:0})
     
-    1'b0 : z <= KEY[0]
-    1'b1 : z <= KEY[1]
-
+    2'b00 : z[0] <= ~KEY[0]
+    2'b01 : z[1] <= ~KEY[0]
+    2'b10 : z[2] <= ~KEY[0]
+    2'b11 : z[3] <= ~KEY[0]
+    default ;
+   
     endcase
 end
-assing LEDR[0] = z;
+assing LEDR = z;
 
 endmodule
