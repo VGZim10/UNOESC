@@ -4,7 +4,7 @@ public class CalculadoraMediocre {
     int y = Integer.parseInt(args[2]);
 
     switch(args[0]){
-        case "somar":
+        case "somar ":
             sum(x , y);
             break;
         case "diminuir":
