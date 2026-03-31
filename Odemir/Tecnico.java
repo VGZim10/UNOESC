@@ -11,8 +11,7 @@ public class Tecnico extends Funcionario {
     @Override
     public double calcularSalario() {
         // Regra: salário base + hora extra
-        //return this.salario + this.horaextra;
-        System.out.println("piazinho");   
+        return this.salario + this.horaextra;
     }
 
     // Getters e Setters específicos
