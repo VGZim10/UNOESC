@@ -1,0 +1,27 @@
+/*
+O que vai cair na prova:
+
+Java puro
+1 - Sintaxe, nomes corretos. 
+2 - Tipos de Dados: primitivos, etc.
+3 - Tipos de dados não primitivos começam com letra maíscula, são uma classe.
+4 - Laços de repetição: While, Do, Do While, For, Switch
+5 - Vetores
+6 - Matrizes
+7 - ArrayList, Foreach
+----------------------------
+Programação Orientada a objeto
+8 - Classe > Atributos > Métodos
+9 - getters e setters
+10 - Criar construtores vazios e completo com todos os atributos, usar this
+10 - Instanciar objetos
+11 - Encapsulamento: public, protected, default, private
+12 - Herança: public class JogoTabuleiro extends Jogo - "Todo jogo de tabuleiro é jogo"
+13 - Abstract e Final
+14 - @Override
+15 - Coersão, nem todo objeto é a classe que criei, mas toda classe é um objeto
+16 - Interface
+17 - Polimorfismo de Sobrecarga
+18 - Assinatura de método
+
+*/
